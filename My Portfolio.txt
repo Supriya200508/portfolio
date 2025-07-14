@@ -1,0 +1,174 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supriya's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+   
+    <div class="main-content">
+       <img src="profile.jpg" alt="My Profile Picture" class="round-profile">
+
+      <h1>Hello, I'm B Supriya</h1>
+      <p>Web Developer | Frontend Enthusiast | Portfolio Creator</p>
+    </div> 
+
+  <footer>
+    <p>&copy; 2025 Supriya</p>
+  </footer>
+</body>
+</html>
+
+style.css
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #c2b9d7;
+  color: #701b58;
+}
+
+header {
+  background-color: #d3d2eb;
+  color: rgb(215, 231, 235);
+  padding: 0px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(19, 21, 20);
+  
+}
+
+nav a {
+  color: rgb(220, 232, 243);
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 50px;
+}
+
+.main-content {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+.round-profile{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
+footer {
+  text-align: center;
+  padding: 0px;
+  background-color: #1d0e3c;
+  color: white;
+}
+
+about.html
+<h1><b>Education</b></h1>
+<p><b>My name is Supriya,pursuing Btech 3rd yr in AI at Anurag University.</b></p>
+  <p><b>I have knowledge on C, Python, Java, SQL, Database.</b></p>
+     <p><b>I have done certifications in html,css,javascript in infosys springboard and some of them from cisco,great learning.</b></p>
+       <p><b>I have done 2 Internships in AICTE-Eduskill.</b></p>
+         <p><b>I received offer letter from Swecha organised by Vishwam AI and ECIL Internships.</b></p>
+           <p><b>My Soft Skills are Communicating,Leadership,Creativity,Team Management,Team work.</b></p>
+             <p><b>I love learning new skills,I can manage mutiple tasks and I am looking forward to see in High position.</b></p>
+                          
+<html>
+    <head>
+        <title>
+            Education
+        </title>
+    </head>
+    <body>
+        <table border="6">
+            <tr>
+                <th>Degree</th>
+                <th>Name of Institution</th>
+                <th>Place</th>
+                <th>Year of Passing</th>
+                <th>CGPA/Percentage</th>
+            </tr>
+            <tr>
+                <align = "left">
+                <td>UG(B Tech-AI)</td>
+                <td>Anurag University</td>
+                <td>Hyderabad</td>
+                <td>2027</td>
+                <td>8.28(upto 4th semester)</td>
+            </tr>
+            <tr>
+                <align = "left">
+                <td>Intermediate</td>   
+                <td>SR Junior College</td>
+                <td>Hyderabad</td>
+                <td>2023</td>
+                <td>89%</td>
+            </tr>
+            <tr>
+                <align = "left">
+                <td>10th</td>
+                <td>Naagarjuna School</td>
+                <td>Hyderabad</td>
+                <td>2021</td>
+                <td>10.0</td>
+                
+            </tr>
+        </table>
+    </body>
+</html>             
+
+project.html
+<h1>My Projects</h1>
+
+<h2>Project 1: Bank Management System</h2>
+  <p><b>
+    A simple bank management system built using HTML, CSS, and JavaScript. It supports operations like creating an account, viewing balance, depositing, and withdrawing money.
+  </b></p>
+  <p><b>
+    It Shows the transcation details, payment method, customer details.
+  </b></p>
+
+<h2>Project 2: Online Booking System</h2>
+  <p><b>
+    Developed an online booking system for appointments/reservations using web technologies. Users can book slots, receive confirmation emails, and manage bookings.
+  </b></p>
+  <p><b>
+    We can book tickets through online and get every information from this website.It is free of cost.
+  </b></p>
+
+contact.html
+<form action="mailto:supriyadec08@gmail.com" method="POST" enctype="text/plain">
+    <label>Name:</label><br>
+    <input type="name" name="name" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+
+    <label>Phone:</label><br>
+    <input type="number" name="Phone" required><br>
+
+
+    <label>Message:</label><br>
+    <textarea name="message" required></textarea><br>
+
+    <input type="submit" value="Send">
+</form>
